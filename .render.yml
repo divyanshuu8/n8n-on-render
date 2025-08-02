@@ -17,8 +17,18 @@ services:
       - key: N8N_PORT
         value: 10000
       - key: WEBHOOK_TUNNEL_URL
-        value: https://n8n-div.onrender.com
+        value: https://n8n-on-render-909h.onrender.com
       - key: N8N_PROTOCOL
         value: https
       - key: N8N_EDITOR_BASE_URL
-        value: https://n8n-div.onrender.com
+        value: https://n8n-on-render-909h.onrender.com
+      - key: DB_POSTGRESDB_HOST
+        value: db.khtjsaasrcmufmmkycpj.supabase.co
+      - key: DB_POSTGRESDB_PORT
+        value: 5432
+      - key: DB_POSTGRESDB_DATABASE
+        value: postgres
+      - key: DB_POSTGRESDB_USER
+        value: postgres
+      - key: DB_POSTGRESDB_PASSWORD
+        value: Ds@9879618851
